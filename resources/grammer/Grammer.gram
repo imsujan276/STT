@@ -1,0 +1,27 @@
+#JSGF V1.0;
+
+grammar hello;
+public <greet> = (hey | hi | hello);
+public <about> = ( how are | what's ) (up | you );
+public <intro> = (do you) ( have a name );
+public <age> = (how old) (are you);
+public <command> = ( open | close ) ( explorer | browser | paint);
+public <system> = (what) ( time | date ) ( is it);
+public <urls> = (site) ( goo girl | face book | you tube | mail | tweet err);
+public <humor> = (Make me ) (a coffee | laugh);
+public <brithumor> = (nice) (one);
+public <end> = ( stop | goodbye ) ( recognition | computer );
+public<text> = ( this | is | speech | to | text | application);
+public<exit> = (exit | back);
+public<email> = (send) ( email | mail );
+public<save> = (save) (file | it );
+public<punctuation> = (dot | question mark );
+public <sentence1> = (a | an | the | up | down | is | are | am | i | you | he | she | they | we | has | have | up | down );
+public <sentence2> = ( his | her | their | them | my | mine | please | name | me );
+public <sentence3> = ( what | how | when | where | be | been | text | to | speech  | nice);
+public <sentence4> = ( time | it | that | time | date | good | morning | evening | afternoon | night | pleasure);
+public <sentence5> = ( error | warning | science | hard | difficult | easy | task | work | for);
+public <color> = (red | green | blue | white | black | yellow | orange | color);
+public <animal> = ( dog | cow | human | animal | birds | tiger | mouse | cat );
+public <digits> = ( zero | one | two | three | four | five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty );
+ 
